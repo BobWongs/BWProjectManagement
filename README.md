@@ -14,7 +14,7 @@
 - Git命令  
 	- Reference  
 	git --help  
-	git concrete_command --help
+	git concrete_command --help  
 	man git
 	- git init
 	- git config  
@@ -44,5 +44,6 @@
 	- SourceTree
 	- IDE内置，如Xcode、WebStorm
 - Git研究
-	- 更全面的权限管理
+	- 更全面的权限管理  
+	
 ### SVN
