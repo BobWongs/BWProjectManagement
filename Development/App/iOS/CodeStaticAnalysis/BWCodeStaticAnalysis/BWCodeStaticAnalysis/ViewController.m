@@ -1,9 +1,9 @@
 //
 //  ViewController.m
-//  BWProjectManagement
+//  BWCodeStaticAnalysis
 //
-//  Created by BobWong on 16/8/5.
-//  Copyright © 2016年 BobWong. All rights reserved.
+//  Created by BobWong on 2017/3/6.
+//  Copyright © 2017年 BobWong. All rights reserved.
 //
 
 #import "ViewController.h"
@@ -17,11 +17,21 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    int a =10;
+    int b=20;
+    if (a> b){
+        NSLog(@"a > b");
+    } else {
+        NSLog(@"a <= b");
+    }
 }
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
 
 @end

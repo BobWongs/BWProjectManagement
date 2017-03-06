@@ -1,18 +1,18 @@
 //
-//  BWProjectManagementTests.m
-//  BWProjectManagementTests
+//  BWCodeStaticAnalysisTests.m
+//  BWCodeStaticAnalysisTests
 //
-//  Created by BobWong on 16/8/5.
-//  Copyright © 2016年 BobWong. All rights reserved.
+//  Created by BobWong on 2017/3/6.
+//  Copyright © 2017年 BobWong. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>
 
-@interface BWProjectManagementTests : XCTestCase
+@interface BWCodeStaticAnalysisTests : XCTestCase
 
 @end
 
-@implementation BWProjectManagementTests
+@implementation BWCodeStaticAnalysisTests
 
 - (void)setUp {
     [super setUp];

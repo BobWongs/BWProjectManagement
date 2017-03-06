@@ -1,9 +1,9 @@
 //
 //  AppDelegate.h
-//  BWProjectManagement
+//  BWCodeStaticAnalysis
 //
-//  Created by BobWong on 16/8/5.
-//  Copyright © 2016年 BobWong. All rights reserved.
+//  Created by BobWong on 2017/3/6.
+//  Copyright © 2017年 BobWong. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

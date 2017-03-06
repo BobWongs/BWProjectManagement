@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:BWProjectManagement.xcodeproj">
+      location = "self:BWCodeStaticAnalysis.xcodeproj">
    </FileRef>
 </Workspace>
