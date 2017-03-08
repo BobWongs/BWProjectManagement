@@ -177,6 +177,7 @@
 				B48EF2A21E6D5D270013FE6C /* Resources */,
 				BB2B8D71E7B5AF7257E33682 /* [CP] Embed Pods Frameworks */,
 				3A85EC8E10B2639B514FD097 /* [CP] Copy Pods Resources */,
+				B48202831E7001660099313B /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -313,6 +314,19 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BWCodeStaticAnalysis/Pods-BWCodeStaticAnalysis-resources.sh\"\n";
 			showEnvVarsInLog = 0;
+		};
+		B48202831E7001660099313B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "source ~/.bash_profile\ncd ${SRCROOT}\nscripts/xctool.sh -reporter json-compilation-database:compile_commands.json clean\nscripts/xctool.sh -reporter json-compilation-database:compile_commands.json build\noclint-json-compilation-database | sed 's/\\(.*\\.\\m\\{1,2\\}:[0-9]*:[0-9]*:\\)/\\1 warning:/'";
 		};
 		BB2B8D71E7B5AF7257E33682 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -591,6 +605,7 @@
 				B48EF2D31E6D5D270013FE6C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B48EF2D41E6D5D270013FE6C /* Build configuration list for PBXNativeTarget "BWCodeStaticAnalysisTests" */ = {
 			isa = XCConfigurationList;
@@ -599,6 +614,7 @@
 				B48EF2D61E6D5D270013FE6C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B48EF2D71E6D5D270013FE6C /* Build configuration list for PBXNativeTarget "BWCodeStaticAnalysisUITests" */ = {
 			isa = XCConfigurationList;
@@ -607,6 +623,7 @@
 				B48EF2D91E6D5D270013FE6C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,0 +1,5 @@
+[
+  "-workspace", "BWCodeStaticAnalysis.xcworkspace",
+  "-scheme", "BWCodeStaticAnalysis",
+  "-configuration", "Debug"
+]
