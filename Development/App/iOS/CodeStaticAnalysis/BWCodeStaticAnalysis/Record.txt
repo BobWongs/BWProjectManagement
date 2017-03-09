@@ -1,0 +1,16 @@
+
+Shell Script
+
+xcpretty
+
+source ~/.bash_profile
+cd ${SRCROOT}
+xcodebuild clean
+xcodebuild | xcpretty -r json-compilation-database
+oclint-json-compilation-database -- -report-type xcode
+
+
+xcodebuild -configuration Debug | tee xcodebuild.log
+
+
+xcodebuild -target BWCodeStaticAnalysis -configuration Debug -scheme BWCodeStaticAnalysis

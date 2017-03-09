@@ -15,7 +15,7 @@
 		B48EF2B71E6D5D270013FE6C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B48EF2B51E6D5D270013FE6C /* LaunchScreen.storyboard */; };
 		B48EF2C21E6D5D270013FE6C /* BWCodeStaticAnalysisTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B48EF2C11E6D5D270013FE6C /* BWCodeStaticAnalysisTests.m */; };
 		B48EF2CD1E6D5D270013FE6C /* BWCodeStaticAnalysisUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B48EF2CC1E6D5D270013FE6C /* BWCodeStaticAnalysisUITests.m */; };
-		C8C36CAACAFB8AB41C983EEF /* libPods-BWCodeStaticAnalysis.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A3864F5D792D4BE668C3B070 /* libPods-BWCodeStaticAnalysis.a */; };
+		E2AE8B19F754FE549CF0448D /* libPods-BWCodeStaticAnalysis.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 305697F7F8CF3EEA8C3D0D56 /* libPods-BWCodeStaticAnalysis.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,9 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		46726FCB7A14B6B1F7E14267 /* Pods-BWCodeStaticAnalysis.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BWCodeStaticAnalysis.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BWCodeStaticAnalysis/Pods-BWCodeStaticAnalysis.debug.xcconfig"; sourceTree = "<group>"; };
-		636375253E98982B1E5016BC /* Pods-BWCodeStaticAnalysis.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BWCodeStaticAnalysis.release.xcconfig"; path = "Pods/Target Support Files/Pods-BWCodeStaticAnalysis/Pods-BWCodeStaticAnalysis.release.xcconfig"; sourceTree = "<group>"; };
-		A3864F5D792D4BE668C3B070 /* libPods-BWCodeStaticAnalysis.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BWCodeStaticAnalysis.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		305697F7F8CF3EEA8C3D0D56 /* libPods-BWCodeStaticAnalysis.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BWCodeStaticAnalysis.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		591872C11044CC180566A298 /* Pods-BWCodeStaticAnalysis.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BWCodeStaticAnalysis.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BWCodeStaticAnalysis/Pods-BWCodeStaticAnalysis.debug.xcconfig"; sourceTree = "<group>"; };
 		B48EF2A41E6D5D270013FE6C /* BWCodeStaticAnalysis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BWCodeStaticAnalysis.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B48EF2A81E6D5D270013FE6C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B48EF2AA1E6D5D270013FE6C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -55,6 +54,7 @@
 		B48EF2C81E6D5D270013FE6C /* BWCodeStaticAnalysisUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BWCodeStaticAnalysisUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B48EF2CC1E6D5D270013FE6C /* BWCodeStaticAnalysisUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BWCodeStaticAnalysisUITests.m; sourceTree = "<group>"; };
 		B48EF2CE1E6D5D270013FE6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEDDA528F2355D908F5AA60F /* Pods-BWCodeStaticAnalysis.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BWCodeStaticAnalysis.release.xcconfig"; path = "Pods/Target Support Files/Pods-BWCodeStaticAnalysis/Pods-BWCodeStaticAnalysis.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C8C36CAACAFB8AB41C983EEF /* libPods-BWCodeStaticAnalysis.a in Frameworks */,
+				E2AE8B19F754FE549CF0448D /* libPods-BWCodeStaticAnalysis.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,21 +83,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1C906A698191F9C06A3983E6 /* Pods */ = {
+		373DD8742D3CA51CD7BC604F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				46726FCB7A14B6B1F7E14267 /* Pods-BWCodeStaticAnalysis.debug.xcconfig */,
-				636375253E98982B1E5016BC /* Pods-BWCodeStaticAnalysis.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		B0588E4AC831511C676DB5D3 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				A3864F5D792D4BE668C3B070 /* libPods-BWCodeStaticAnalysis.a */,
+				305697F7F8CF3EEA8C3D0D56 /* libPods-BWCodeStaticAnalysis.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ADB7618887F63D48A4B43649 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				591872C11044CC180566A298 /* Pods-BWCodeStaticAnalysis.debug.xcconfig */,
+				CEDDA528F2355D908F5AA60F /* Pods-BWCodeStaticAnalysis.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		B48EF29B1E6D5D270013FE6C = {
@@ -107,8 +107,8 @@
 				B48EF2C01E6D5D270013FE6C /* BWCodeStaticAnalysisTests */,
 				B48EF2CB1E6D5D270013FE6C /* BWCodeStaticAnalysisUITests */,
 				B48EF2A51E6D5D270013FE6C /* Products */,
-				1C906A698191F9C06A3983E6 /* Pods */,
-				B0588E4AC831511C676DB5D3 /* Frameworks */,
+				ADB7618887F63D48A4B43649 /* Pods */,
+				373DD8742D3CA51CD7BC604F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -171,13 +171,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B48EF2D11E6D5D270013FE6C /* Build configuration list for PBXNativeTarget "BWCodeStaticAnalysis" */;
 			buildPhases = (
-				BFE4BA8D70E793E754D72C0F /* [CP] Check Pods Manifest.lock */,
+				FEE6A5A333A570C921F0EBBC /* [CP] Check Pods Manifest.lock */,
 				B48EF2A01E6D5D270013FE6C /* Sources */,
 				B48EF2A11E6D5D270013FE6C /* Frameworks */,
 				B48EF2A21E6D5D270013FE6C /* Resources */,
-				BB2B8D71E7B5AF7257E33682 /* [CP] Embed Pods Frameworks */,
-				3A85EC8E10B2639B514FD097 /* [CP] Copy Pods Resources */,
 				B48202831E7001660099313B /* ShellScript */,
+				DCF7EDD32860ED9AC8F67D7B /* [CP] Embed Pods Frameworks */,
+				B0273E2DA903BC31003C21B9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -235,8 +235,8 @@
 				TargetAttributes = {
 					B48EF2A31E6D5D270013FE6C = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = V3E8GUFW32;
-						ProvisioningStyle = Automatic;
+						DevelopmentTeam = R6L6VZZQ6L;
+						ProvisioningStyle = Manual;
 					};
 					B48EF2BC1E6D5D270013FE6C = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -300,7 +300,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		3A85EC8E10B2639B514FD097 /* [CP] Copy Pods Resources */ = {
+		B0273E2DA903BC31003C21B9 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -317,7 +317,7 @@
 		};
 		B48202831E7001660099313B /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 12;
 			files = (
 			);
 			inputPaths = (
@@ -326,9 +326,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "source ~/.bash_profile\ncd ${SRCROOT}\nscripts/xctool.sh -reporter json-compilation-database:compile_commands.json clean\nscripts/xctool.sh -reporter json-compilation-database:compile_commands.json build\noclint-json-compilation-database | sed 's/\\(.*\\.\\m\\{1,2\\}:[0-9]*:[0-9]*:\\)/\\1 warning:/'";
+			shellScript = "oclint-json-compilation-database -- -report-type xcode";
 		};
-		BB2B8D71E7B5AF7257E33682 /* [CP] Embed Pods Frameworks */ = {
+		DCF7EDD32860ED9AC8F67D7B /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -343,7 +343,7 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BWCodeStaticAnalysis/Pods-BWCodeStaticAnalysis-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		BFE4BA8D70E793E754D72C0F /* [CP] Check Pods Manifest.lock */ = {
+		FEE6A5A333A570C921F0EBBC /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -512,27 +512,35 @@
 		};
 		B48EF2D21E6D5D270013FE6C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 46726FCB7A14B6B1F7E14267 /* Pods-BWCodeStaticAnalysis.debug.xcconfig */;
+			baseConfigurationReference = 591872C11044CC180566A298 /* Pods-BWCodeStaticAnalysis.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = V3E8GUFW32;
+				DEVELOPMENT_TEAM = R6L6VZZQ6L;
 				INFOPLIST_FILE = BWCodeStaticAnalysis/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.bws.BWCodeStaticAnalysis;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.bluemoon.bluehouse;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "9a939003-c3ff-4a9c-b736-0c476f27626b";
+				PROVISIONING_PROFILE_SPECIFIER = dev_R6L6VZZQ6L.cn.com.bluemoon.bluehouse_20161223;
 			};
 			name = Debug;
 		};
 		B48EF2D31E6D5D270013FE6C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 636375253E98982B1E5016BC /* Pods-BWCodeStaticAnalysis.release.xcconfig */;
+			baseConfigurationReference = CEDDA528F2355D908F5AA60F /* Pods-BWCodeStaticAnalysis.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = V3E8GUFW32;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = R6L6VZZQ6L;
 				INFOPLIST_FILE = BWCodeStaticAnalysis/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.bws.BWCodeStaticAnalysis;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.bluemoon.bluehouse;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "c2ac54e0-11f7-47d2-962b-6761cdf2a705";
+				PROVISIONING_PROFILE_SPECIFIER = dis_R6L6VZZQ6L.cn.com.bluemoon.bluehouse_20161223;
 			};
 			name = Release;
 		};
