@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B43424701E713E3900AA5D43 /* analysis.sh in Resources */ = {isa = PBXBuildFile; fileRef = B434246F1E713E3900AA5D43 /* analysis.sh */; };
 		B48EF2A91E6D5D270013FE6C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B48EF2A81E6D5D270013FE6C /* main.m */; };
 		B48EF2AC1E6D5D270013FE6C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B48EF2AB1E6D5D270013FE6C /* AppDelegate.m */; };
 		B48EF2AF1E6D5D270013FE6C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B48EF2AE1E6D5D270013FE6C /* ViewController.m */; };
@@ -38,6 +39,7 @@
 /* Begin PBXFileReference section */
 		305697F7F8CF3EEA8C3D0D56 /* libPods-BWCodeStaticAnalysis.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BWCodeStaticAnalysis.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		591872C11044CC180566A298 /* Pods-BWCodeStaticAnalysis.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BWCodeStaticAnalysis.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BWCodeStaticAnalysis/Pods-BWCodeStaticAnalysis.debug.xcconfig"; sourceTree = "<group>"; };
+		B434246F1E713E3900AA5D43 /* analysis.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = analysis.sh; sourceTree = SOURCE_ROOT; };
 		B48EF2A41E6D5D270013FE6C /* BWCodeStaticAnalysis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BWCodeStaticAnalysis.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B48EF2A81E6D5D270013FE6C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B48EF2AA1E6D5D270013FE6C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 		B48EF29B1E6D5D270013FE6C = {
 			isa = PBXGroup;
 			children = (
+				B434246F1E713E3900AA5D43 /* analysis.sh */,
 				B48EF2A61E6D5D270013FE6C /* BWCodeStaticAnalysis */,
 				B48EF2C01E6D5D270013FE6C /* BWCodeStaticAnalysisTests */,
 				B48EF2CB1E6D5D270013FE6C /* BWCodeStaticAnalysisUITests */,
@@ -129,10 +132,7 @@
 				B48EF2AB1E6D5D270013FE6C /* AppDelegate.m */,
 				B48EF2AD1E6D5D270013FE6C /* ViewController.h */,
 				B48EF2AE1E6D5D270013FE6C /* ViewController.m */,
-				B48EF2B01E6D5D270013FE6C /* Main.storyboard */,
 				B48EF2B31E6D5D270013FE6C /* Assets.xcassets */,
-				B48EF2B51E6D5D270013FE6C /* LaunchScreen.storyboard */,
-				B48EF2B81E6D5D270013FE6C /* Info.plist */,
 				B48EF2A71E6D5D270013FE6C /* Supporting Files */,
 			);
 			path = BWCodeStaticAnalysis;
@@ -142,6 +142,9 @@
 			isa = PBXGroup;
 			children = (
 				B48EF2A81E6D5D270013FE6C /* main.m */,
+				B48EF2B81E6D5D270013FE6C /* Info.plist */,
+				B48EF2B51E6D5D270013FE6C /* LaunchScreen.storyboard */,
+				B48EF2B01E6D5D270013FE6C /* Main.storyboard */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -277,6 +280,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B43424701E713E3900AA5D43 /* analysis.sh in Resources */,
 				B48EF2B71E6D5D270013FE6C /* LaunchScreen.storyboard in Resources */,
 				B48EF2B41E6D5D270013FE6C /* Assets.xcassets in Resources */,
 				B48EF2B21E6D5D270013FE6C /* Main.storyboard in Resources */,
