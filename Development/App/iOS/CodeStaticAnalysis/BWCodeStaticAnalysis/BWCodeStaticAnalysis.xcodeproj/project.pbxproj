@@ -16,7 +16,6 @@
 		B48EF2B71E6D5D270013FE6C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B48EF2B51E6D5D270013FE6C /* LaunchScreen.storyboard */; };
 		B48EF2C21E6D5D270013FE6C /* BWCodeStaticAnalysisTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B48EF2C11E6D5D270013FE6C /* BWCodeStaticAnalysisTests.m */; };
 		B48EF2CD1E6D5D270013FE6C /* BWCodeStaticAnalysisUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B48EF2CC1E6D5D270013FE6C /* BWCodeStaticAnalysisUITests.m */; };
-		E2AE8B19F754FE549CF0448D /* libPods-BWCodeStaticAnalysis.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 305697F7F8CF3EEA8C3D0D56 /* libPods-BWCodeStaticAnalysis.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +36,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		305697F7F8CF3EEA8C3D0D56 /* libPods-BWCodeStaticAnalysis.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BWCodeStaticAnalysis.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		591872C11044CC180566A298 /* Pods-BWCodeStaticAnalysis.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BWCodeStaticAnalysis.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BWCodeStaticAnalysis/Pods-BWCodeStaticAnalysis.debug.xcconfig"; sourceTree = "<group>"; };
 		B434246F1E713E3900AA5D43 /* analysis.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = analysis.sh; sourceTree = SOURCE_ROOT; };
 		B48EF2A41E6D5D270013FE6C /* BWCodeStaticAnalysis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BWCodeStaticAnalysis.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B48EF2A81E6D5D270013FE6C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -56,7 +53,6 @@
 		B48EF2C81E6D5D270013FE6C /* BWCodeStaticAnalysisUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BWCodeStaticAnalysisUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B48EF2CC1E6D5D270013FE6C /* BWCodeStaticAnalysisUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BWCodeStaticAnalysisUITests.m; sourceTree = "<group>"; };
 		B48EF2CE1E6D5D270013FE6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CEDDA528F2355D908F5AA60F /* Pods-BWCodeStaticAnalysis.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BWCodeStaticAnalysis.release.xcconfig"; path = "Pods/Target Support Files/Pods-BWCodeStaticAnalysis/Pods-BWCodeStaticAnalysis.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,7 +60,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E2AE8B19F754FE549CF0448D /* libPods-BWCodeStaticAnalysis.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,23 +80,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		373DD8742D3CA51CD7BC604F /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				305697F7F8CF3EEA8C3D0D56 /* libPods-BWCodeStaticAnalysis.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		ADB7618887F63D48A4B43649 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				591872C11044CC180566A298 /* Pods-BWCodeStaticAnalysis.debug.xcconfig */,
-				CEDDA528F2355D908F5AA60F /* Pods-BWCodeStaticAnalysis.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		B48EF29B1E6D5D270013FE6C = {
 			isa = PBXGroup;
 			children = (
@@ -110,8 +88,6 @@
 				B48EF2C01E6D5D270013FE6C /* BWCodeStaticAnalysisTests */,
 				B48EF2CB1E6D5D270013FE6C /* BWCodeStaticAnalysisUITests */,
 				B48EF2A51E6D5D270013FE6C /* Products */,
-				ADB7618887F63D48A4B43649 /* Pods */,
-				373DD8742D3CA51CD7BC604F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -174,13 +150,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B48EF2D11E6D5D270013FE6C /* Build configuration list for PBXNativeTarget "BWCodeStaticAnalysis" */;
 			buildPhases = (
-				FEE6A5A333A570C921F0EBBC /* [CP] Check Pods Manifest.lock */,
 				B48EF2A01E6D5D270013FE6C /* Sources */,
 				B48EF2A11E6D5D270013FE6C /* Frameworks */,
 				B48EF2A21E6D5D270013FE6C /* Resources */,
 				B48202831E7001660099313B /* ShellScript */,
-				DCF7EDD32860ED9AC8F67D7B /* [CP] Embed Pods Frameworks */,
-				B0273E2DA903BC31003C21B9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -304,21 +277,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		B0273E2DA903BC31003C21B9 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BWCodeStaticAnalysis/Pods-BWCodeStaticAnalysis-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		B48202831E7001660099313B /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 12;
@@ -331,36 +289,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "oclint-json-compilation-database -- -report-type xcode";
-		};
-		DCF7EDD32860ED9AC8F67D7B /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BWCodeStaticAnalysis/Pods-BWCodeStaticAnalysis-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		FEE6A5A333A570C921F0EBBC /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -516,7 +444,6 @@
 		};
 		B48EF2D21E6D5D270013FE6C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 591872C11044CC180566A298 /* Pods-BWCodeStaticAnalysis.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = R6L6VZZQ6L;
@@ -532,7 +459,6 @@
 		};
 		B48EF2D31E6D5D270013FE6C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CEDDA528F2355D908F5AA60F /* Pods-BWCodeStaticAnalysis.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
