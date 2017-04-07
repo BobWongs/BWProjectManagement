@@ -120,6 +120,32 @@ oclint-json-compilation-database -- -report-type xcode
 
 ##### 对Xcode项目进行Command+B操作，稍等片刻，就能查看到由于编码不规范生成的警告![warning](README/warning.png)
 
+#### 4、OCLint已有规则的自定义
+
+OCLint查看帮助：oclint -help
+
+OCLint规则的查看：oclint rt -list-enabled-rules
+
+已有规则的自定义示例
+
+```
+disable-rules:
+  - LongLine
+rulePaths:
+  - /etc/rules
+rule-configurations:
+  - key: CYCLOMATIC_COMPLEXITY
+    value: 15
+  - key: NPATH_COMPLEXITY
+    value: 300
+output: oclint.xml
+report-type: xml
+max-priority-1: 20
+max-priority-2: 40
+max-priority-3: 60
+enable-clang-static-analyzer: false
+```
+
 ## Summary
 
 对项目代码质量进行周期性检查
@@ -128,7 +154,8 @@ oclint-json-compilation-database -- -report-type xcode
 
 ## Next
 
-- OCLint检查规则的熟悉，屏蔽掉OCLint不合适的检查规则
+- OCLint检查规则的熟悉，屏蔽掉OCLint不合适的检查规则，已有规则的自定义
+- 使用OCLint检查项目代码质量
 - 自定义OCLint的检查规则
 
 ## Reference
